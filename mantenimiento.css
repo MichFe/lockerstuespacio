@@ -1,0 +1,47 @@
+body{
+    margin: 0px;
+    background-color: #25AAE1;
+    font: 20px Helvetica, sans-serif; 
+    color: #333;
+}
+
+body>div{
+    height: 100vh;
+    width: 100vw;
+
+        display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+article{
+        width: 50vw;
+}
+
+article h1{
+    font-size: 50px;
+}
+
+a { 
+    color:whitesmoke; 
+    text-decoration: none; 
+}
+
+a:hover { 
+    color: #333; 
+    text-decoration: none; 
+}
+
+.firma{
+    color: whitesmoke;
+}
+
+@media (max-width: 900px) {
+    article{
+        width: 80vw;
+}
+
+    img{
+        max-width: 80vw;
+    }
+}
